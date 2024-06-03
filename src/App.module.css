@@ -1,0 +1,92 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  max-width: 46rem;
+  margin: calc(0px - 1.5rem - 6px) auto 0;
+  height: 3.375rem;
+}
+
+.form input {
+  background: var(--gray-500);
+  color: var(--gray-300);
+  font-weight: 400;
+  font-size: 1rem;
+
+  height: 100%;
+  width: 39.875rem;
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-700);
+}
+
+.form input:focus {
+  color: var(--gray-100);
+  border: 1px solid var(--purple-dark);
+  outline: none;
+}
+
+.form button {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 5.625rem;
+  height: 3.25rem;
+  border-radius: 0.5rem;
+  border: 0;
+
+  transition: 0.1s;
+}
+
+.form button:hover {
+  background: var(--blue);
+}
+
+.score {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 3.375rem auto 0;
+  align-items: center;
+  max-width: 46rem;
+}
+
+.score p:first-child {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.score p:nth-child(2) {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.score span {
+  background-color: var(-gray-400);
+  color: var(--gray-200);
+
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  padding: 2px 8px;
+  border-radius: 1rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  max-width: 46rem;
+  margin: 0 auto;
+}

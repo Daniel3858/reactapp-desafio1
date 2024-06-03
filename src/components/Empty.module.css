@@ -1,0 +1,38 @@
+.component {
+  display: block;
+  justify-content: center;
+  max-width: 46rem;
+  flex: 1;
+}
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 46rem;
+
+  margin: 1.5rem auto 0;
+  border-top: solid var(--gray-400);
+  border-radius: 0.5rem;
+}
+
+.tasks img {
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 4rem auto 1rem;
+}
+
+.tasks p {
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: auto 0;
+}
+
+.tasks p:nth-child(3) {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
